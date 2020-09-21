@@ -1,0 +1,26 @@
+GITPP::REPO repoCheck(){
+	std::cout << "\nbs15av repoCheck(): ";
+
+	std::string path=".";
+	try{
+		GITPP::REPO r(path.c_str());
+		std::cout<<"a git repository exists\n";
+	}
+
+	catch(GITPP::EXCEPTION_CANT_FIND const&){
+		GITPP::REPO r(GITPP::REPO::_create, path.c_str());
+		std::cout<<"You have created a git repository \n";
+		r.commits().create("test created from git_create.cc \n"); // test commit
+		// GitTaskLabel::branch("test_branch", r); // test branch
+		// test branch
+
+	}
+	GITPP::REPO r(path.c_str());
+
+	return r;
+
+} // repoCheck()
+
+
+
+----- For a guaranteed working version 

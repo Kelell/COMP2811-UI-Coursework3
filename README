@@ -1,0 +1,35 @@
+README
+
+****************************************************************
+****		 Coursework 3 files are located		    ****
+****		     under the "gui" subfolder		    ****
+****************************************************************
+
+This is a team project consisting of 5 members. This program aims to implement
+a graphical user interface for a local git repository. By implementing the 
+good UI design we have learn in class, we should implement the following 
+five of the following functions:
+
+1)Create or select a git repository- based on the directories in your file system.
+2)Branch navigation- list and checkout branches
+3)Display commits- Show the commit history and messages
+4)Show/edit settings- The git repository configuration
+5)Keyword search- Find commits in a repository with a search term appearing in the commit message
+6)Statistics- collect and present data about a user or a branch.
+
+Important links:
+Google Drive - https://drive.google.com/drive/folders/1rWH8Hwf67BY7GeYeAHQlQb1fWhvholbL?usp=sharing
+Windows access to DEC-10: 	https://feng-linux.leeds.ac.uk/
+Requires a VPN for Windows to access Leeds system: https://leeds.service-now.com/it?id=kb_article&sys_id=5c1370e50f42fe0089d7f55be1050e8a
+
+
+CHANGELOG
+2018-11-23  Dominic Baker  <sc16dd@leeds.ac.uk>
+Project created.
+
+.
+
+
+
+
+
